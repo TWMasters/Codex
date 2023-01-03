@@ -1,8 +1,18 @@
-html {
-  height: 100%;
-  width: 100%;
+/*
+Dark Blue-Grey: #538898
+Light Blue: #0eb9fe
+White: 241, 241, 241
+Orange-Yellow for titles!
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  min-height: 100%;  
+  background: linear-gradient(black, black, blue) no-repeat fixed;  
 }
 
-body {  
-  background: linear-gradient(black, blue) no-repeat;  
+.codex-container {
+  color: #f1f1f1;
+  font-family: 'Orbitron', sans-serif;
 }
