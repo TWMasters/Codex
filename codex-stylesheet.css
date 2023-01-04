@@ -7,22 +7,29 @@ Orange-Yellow for titles!
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;  
-  
+html {
+  height: 100%;
 }
 
 body {
+  height: 100%;
   background: linear-gradient(black, black, navy, #1277AD) no-repeat fixed;  
+  border: solid 1px white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight:bold;
 }
 
+#test-div {
+  border: solid 1px red;
+  height: 100%;
+}
+
 #codex-container {
   display:flex;
   margin: 5% 10% 5% 10%;
+  height: 100%;
       
   color: #A2C8D1;
   font-family: 'Orbitron', sans-serif;
