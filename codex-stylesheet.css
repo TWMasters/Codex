@@ -7,14 +7,18 @@ Orange-Yellow for titles!
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-html {
+html, body {
   height: 100%;
+  margin: 0;
+}
+
+html {
+  border: solid 1px red;
 }
 
 body {
-  height: 100%;
   background: linear-gradient(black, black, navy, #1277AD) no-repeat fixed;  
-  border: solid 1px white;
+  border: solid 1px orange;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,8 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #test-div {
-  border: solid 1px red;
+  display: flex;
+  flex-flow: column;
+  border: solid 1px green;
   height: 100%;
+  margin: 5% 10% 5% 10%;
+  color:white;
 }
 
 #codex-container {
