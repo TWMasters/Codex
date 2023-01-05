@@ -10,16 +10,30 @@
       }
       
       body {
-        height: 100%;
         margin: 0;
+        padding: 50px;
         border: solid 1px orange;
+        font-size: 2em;
       }
 
       #test-1 {
-        height: 80%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        border: solid 1px green;
+        background-color: lightblue;
+        padding: 10px;
+        position: relative;
+      }
+
+      .child-one {
+        background-color: lightgreen;
+        position: absolute;
+        top: 0px;
+      }
+
+      .child-two {
+        background-color: red;
+      }
+
+      .child-three {
+        background-color: pink;
       }
 
     </style>
@@ -27,7 +41,10 @@
   </head>
   <body>
     <div id="test-1">
-      <h1>Test</h1>
+      Parent
+      <div class="child-one">One</div>
+      <div class="child-two">Two</div>
+      <div class="child-three">Three</div>
     </div>
 
   </body>
