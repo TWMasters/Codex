@@ -5,35 +5,23 @@
       html {
         height: 100vh;
         margin: 0;
-        border: solid 1px red;
-        overflow: hidden;
+        /*border: solid 5px red;*/
       }
       
       body {
+        position: relative;
+        height: 100%;
         margin: 0;
-        padding: 50px;
-        border: solid 1px orange;
         font-size: 2em;
       }
 
       #test-1 {
-        background-color: lightblue;
-        padding: 10px;
-        position: relative;
-      }
-
-      .child-one {
-        background-color: lightgreen;
         position: absolute;
-        top: 0px;
-      }
-
-      .child-two {
-        background-color: red;
-      }
-
-      .child-three {
-        background-color: pink;
+        border: solid 5px green;
+        top: 5%;
+        bottom: 5%;
+        left: 10%;
+        right: 10%;
       }
 
     </style>
@@ -41,10 +29,7 @@
   </head>
   <body>
     <div id="test-1">
-      Parent
-      <div class="child-one">One</div>
-      <div class="child-two">Two</div>
-      <div class="child-three">Three</div>
+      
     </div>
 
   </body>
