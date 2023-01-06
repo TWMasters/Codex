@@ -151,7 +151,8 @@ h1, h2, h3, h4, h5, h6 {
 .codex-button {
   color: #A2C8D1;
   font-family: 'Orbitron', sans-serif;  font-family: 'Orbitron', sans-serif;
-  border: solid 1px #A2C8D1;
+  border: solid #A2C8D1;
+  border-width: 1px 10px;
   background-color: transparent;
   margin-top: 1%;
   margin-left: 120px;
@@ -163,7 +164,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .codex-button:hover {
   color: #FF9541;
-  border: solid 1px #FF9541;
+  border: solid #FF9541;
+  border-width: 1px 10px;
   background-color: #401F12;
   
 }
