@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <style>
+      html ,body {
+        height: 100%;
+        margin:25px;
+      }
+
+      h2 {
+        border: 1px solid blue;
+        margin:0;
+      }
+
+      .line-1 {
+        width:0;
+        height:0;
+        border-top: solid  200px red;
+        border-left: solid 200px transparent;
+      }
+
+      .line-2-title {
+        /*margin-bottom: calc(sqrt(200px/2));*/
+        margin-bottom: calc(200px/2);
+      }
+
+      .line-2 {
+        width:200px;
+        height:25px;
+        transform: skew(0, 45deg);
+        background-color: red;
+        position: relative;
+      }
+
+      .line-3-title {
+        margin-top: calc(200px/2);
+      }
+
+      .line-container {
+        display: flex;
+      }
+
+      .line-3-spacing {
+        width:100px;
+      }
+
+      .line-3 {
+        width:25px;
+        height:200px;
+        transform: skew(45deg);
+        background-color: red;
+        position: relative;
+      }
+
+      .line-3::after {
+        content: "";
+        width: 500px;
+        height: 0px;
+        border-top: 50px solid red;
+        border-left: 50px solid transparent;
+        transform: skew(-45deg);
+        position: absolute;
+        top:200px;
+        left:-25px;
+      }
+
+      .line-4-title {
+        margin-top: 50px;
+      }
+
+      .line-4-container {
+        display:flex;
+        position: absolute;
+      }
+
+      .line-4-column-1 {
+        width: 0px;
+        height:450px;
+        border-left: 50px solid red;
+        border-bottom: 50px solid transparent;
+
+      }
+
+      .line-4-column-2 {
+        width: 0px;
+        height:50px;
+        border-right: 35px solid red;
+        border-bottom: 35px solid transparent;
+        position: absolute;
+        top:450px;
+      }
+
+      .line-4 {
+        width:25px;
+        height:200px;
+        transform: skew(45deg);
+        background-color: red;
+        position: absolute;
+        top: 500px;
+        left: 100px;
+      }
+
+      .line-4::after {
+        content: "";
+        width: 500px;
+        height: 0px;
+        border-top: 50px solid red;
+        border-left: 50px solid transparent;
+        transform: skew(-45deg);
+        position: absolute;
+        top:200px;
+        left:-25px;
+      }
+
+      .line-4-square {
+        width: 30px;
+        height: 50px;
+        background-color: blue;
+        position: absolute;
+        top:700px;
+        left:755px;
+      }
+
+    </style>
+  </head>
+  <body>
+      <div class="container">
+        <h1>TESTING BORDER</h1>
+
+        <h2>Test Line</h2>
+        <div class="line-1"></div>
+
+        <h2 class="line-2-title">Test Line 2</h2>
+        <div class="line-2"></div>
+
+        <h2 class="line-3-title">Test Line 3</h2>
+        <div class="line-container">
+          <div class="line-3-spacing"></div>
+          <div class="line-3"></div>
+        </div>
+
+        <h2 class="line-4-title">Test Line 4</h2>
+        <div class="line-4-container">
+          <div class="line-4-column-1"></div>
+          <div class="line-4-column-2"></div>
+          <div class="line-4"></div>
+          <div class="line-4-square"></div>
+        </div>
+    </div>
+
+  </body>
+</html>
