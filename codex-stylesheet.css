@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 #codex-container {
   position: absolute;
   top: 5%;
-  bottom: 5%;
+  bottom: 7.5%;
   left: 10%;
   right: 10%;
   
@@ -61,10 +61,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-block {
+  display:flex;
+  position: relative;
   text-align:center;
   height: 75%;
-  border-bottom: solid 1.5em #1F415C;
-  border-left: solid 1.5em #1F415C;
+}
+
+.menu-column-1 {
+  height: 83%;
+  width: 0;
+  border-left: solid 25px #1D486B;
+  border-bottom: solid 25px transparent;
+}
+
+.menu-column-2 {
+  height: 4%;
+  width: 0;
+  border-right: solid 18px #1D486B;
+  border-bottom: solid 18px transparent;
+  position: absolute;
+  top: 83%;
+}
+
+.menu-connector {
+  width:18px;
+  height:13%;
+  transform: skew(45deg);
+  background-color: #1D486B;
+  position: absolute;
+  top: 87%;
+  left: calc(6.5% + 9px);
+}
+
+.menu-row-1 {
+  width: 77%;
+  height: 0px;
+  border-top: 25px solid #1D486B;
+  border-left: 25px solid transparent;
+  position: absolute;
+  top: calc(100% - 25px);
+  left: 13%;
+}
+
+.menu-row-2 {
+  width: 3%;
+  height: 25px;
+  position: absolute;
+  top: calc(100% - 25px);
+  background-color: #337AA6;
+  left: calc(94%);
+  border:none;
 }
 
 .picture-block {
