@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head lang="en-GB">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>CODEX</title>
     
     <link rel="stylesheet" href="codex-stylesheet.css">
@@ -8,22 +10,42 @@
   <body>
 
     <div id="codex-container">
-      
-      <div id="column-1">
-        <h1>Codex</h1>
-        <p>Menu</p>
 
-        <button>Mark  All Entries Viewed</button>
+      <div id="codex-top">      
+        <div class="codex-column">
+          <div class="title-block">
+            <h1>Codex</h1>
+          </div>
+          <div class="menu-button-block">
+            <button>
+              Primary
+            </button>
+            <button>
+              Secondary
+            </button>
+          </div>
+          <div class="menu-block">
+            <p>Menu</p>
+          </div>
+        </div>
+        <div class="codex-column">
+          <div class="picture-block">
+            <p>Picture</p>
+          </div>
+          <div class="entry-block">        
+            <p>Codex Entry</p>
+          </div>
+        </div>
       </div>
 
-      <div id="column-2">
-        <div id="picture-container">
-          <p>Picture</p>
-        </div>        
-        <p>Codex Entry</p>
+      <div id="codex-bottom">
+        <button class="codex-button">
+          Mark  All Entries Viewed
+        </button>
       </div>
 
     </div>
+
 
 
   </body>

@@ -29,21 +29,54 @@ h1, h2, h3, h4, h5, h6 {
   right: 10%;
   
   display:flex;
+  flex-direction: column;
       
   color: #A2C8D1;
   font-family: 'Orbitron', sans-serif;
+}
+
+#codex-top {
+  display: flex;
+  height: 95%;
+}
+
+#codex-bottom {
+  display: flex;
+  height: 5%;
+}
+
+.codex-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.title-block {
+  height: 20%;
+}
+
+.menu-button-block {
+  height: 5%;
+}
+
+.menu-block {
+  height: 75%;
   border: solid 1px #A2C8D1;
 }
 
-#column-1 {
-  width: 50%;
-  height: 100%;
-  /*border: solid 1px;*/
+.picture-block {
+  height: 30%;
+  border: solid 1px #A2C8D1;
 }
 
-#column-2 {
-  width: 50%;
-  height: 100%;
-  /*border: solid 1px;*/
+.entry-block  {
+  height: 70%;
+  border: solid 1px #A2C8D1;
 }
+
+.codex-button {
+  margin-top: 1%;
+}
+
 
