@@ -162,12 +162,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color 0.15s;
 }
 
+
+
 .codex-button:hover {
   color: #FF9541;
   border: solid #FF9541;
   border-width: 1px 10px;
   background-color: #401F12;
-  
 }
 
 
