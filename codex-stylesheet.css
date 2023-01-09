@@ -74,6 +74,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+/*MENU BORDER */
+
 .menu-top-row {
   height: 8px;
   width: 100%;
@@ -144,13 +146,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/*COLUMN 2*/
+
 .picture-block {
-  height: 30%;
+  height: 35%;
   border: solid 1px #A2C8D1;
 }
 
 .entry-block  {
-  height: 70%;
+  height: 65%;
   border: solid 1px #A2C8D1;
 }
 
