@@ -157,8 +157,6 @@ h1, h2, h3, h4, h5, h6 {
 /*CODEX FOOTER*/
 
 .codex-button-container {
-  border: solid #A2C8D1;
-  border-width: 2px 10px;
   width: 10%;
   height: 70%;
   min-height: fit-content;
@@ -170,6 +168,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .codex-button {
+  border: solid #A2C8D1;
+  border-width: 2px 10px;
   color: #A2C8D1;
   font-family: 'Orbitron', sans-serif;  font-family: 'Orbitron', sans-serif;
   text-align: center;
@@ -177,7 +177,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: larger;
   
   background-color: transparent;
-  border: none;
   height: 100%;
   width: 100%;
   
@@ -189,29 +188,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .codex-button:hover {
   color: #FF9541;
-}
-
-
-.codex-button:hover > .codex-button-container {
   border: solid #FF9541;
-  border-width: 1px 10px;
+  border-width: 2px 10px;
   background-color: #401F12;
 }
 
-.codex-button:hover > .button-top, .codex-button:hover > .button-bottom {
-  border-right: solid 20px #FF9541;
-  border-left: solid 20px #FF9541;
+.codex-button:hover ~ .button-top, .codex-button:hover ~ .button-bottom {
+  border-right: solid 25px #FF9541;
+  border-left: solid 25px #FF9541;
 }
 
 
 .button-border {
   height: 0;
-  width: calc(100% - 40px);
+  width: calc(100% - 70px);
   transition: border 0.15s;
   position: absolute;
-  left: 0;
-  border-right: solid 20px #A2C8D1;
-  border-left: solid 20px #A2C8D1;
+  left: 10px;
+  border-right: solid 25px #A2C8D1;
+  border-left: solid 25px #A2C8D1;
 }
 
 .button-top {
