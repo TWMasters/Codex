@@ -178,6 +178,28 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.bg-2 {
+  height: 100px;
+  width: calc(100% - 20px);
+  
+  /*
+  border-top: solid 20px transparent;
+  border-left: solid 20px transparent;
+  */
+  border:  solid 20px transparent;
+  border-image: linear-gradient(red, orange) 100;
+
+  position: absolute;
+  top: calc(100% - 60px); 
+}
+
+img {
+  position: absolute;
+  left: 2.5%;
+  right: 2.5%;
+  top: 2.5%;
+}
+
 /*CODEX FOOTER*/
 
 .codex-button-container {
