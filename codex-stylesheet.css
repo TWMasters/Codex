@@ -153,19 +153,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .picture-block {
+  position: absolute;
   height: 35%;
-  border: solid 1px #A2C8D1;
+  width: 100%;
+  /* border: solid 1px #A2C8D1;*/
+  top: 0;
+  left: 0;
 }
 
 .entry-block  {
+  position: absolute;
   height: 65%;
-  border: solid 1px #A2C8D1;
+  width: 100%;
+  /*border: solid 1px #A2C8D1;*/
+  top: 35%;
 }
 
 .bg-1 {
   position: absolute;
-  height: calc(100%-60px);
-  background-color: red;
+  height: calc(100% - 60px);
+  width: 100%;
+  background: linear-gradient(#132843, black, navy, #113A7A) no-repeat fixed; 
+  top: 0;
+  left: 0;
 }
 
 /*CODEX FOOTER*/
