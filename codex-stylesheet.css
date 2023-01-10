@@ -147,6 +147,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*COLUMN 2*/
+.column-2-bg {
+  height: 100%;
+  position: relative;
+}
 
 .picture-block {
   height: 35%;
@@ -156,6 +160,12 @@ h1, h2, h3, h4, h5, h6 {
 .entry-block  {
   height: 65%;
   border: solid 1px #A2C8D1;
+}
+
+.bg-1 {
+  position: absolute;
+  height: calc(100%-60px);
+  background-color: red;
 }
 
 /*CODEX FOOTER*/
