@@ -152,28 +152,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.picture-block {
-  position: absolute;
-  height: 35%;
-  width: 100%;
-  /* border: solid 1px #A2C8D1;*/
-  top: 0;
-  left: 0;
-}
-
-.entry-block  {
-  position: absolute;
-  height: 65%;
-  width: 100%;
-  /*border: solid 1px #A2C8D1;*/
-  top: 35%;
-}
-
 .column__2__bg {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: linear-gradient(#132843, black, navy, #113A7A) no-repeat fixed;
+  background: linear-gradient(#132843, #132843, black, navy, #113A7A) no-repeat fixed;
   top: 0;
   left: 0;
   clip-path: polygon(
@@ -186,11 +169,44 @@ h1, h2, h3, h4, h5, h6 {
   );
 }
 
-img {
+.picture-block {
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  /* border: solid 1px #A2C8D1;*/
+  top: 0;
+  left: 0;
+}
+
+.codex__image {
   position: absolute;
   left: 2.5%;
   right: 2.5%;
   top: 2.5%;
+}
+
+.entry__block__border  {
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  background-color: #A2C8D1;
+  top: 35%;
+  clip-path: polygon(
+    40px 0, /*Start*/
+    calc(100% - 20px) 0, /*Top-Left*/
+    calc(100% - 20px) calc(100% - 20px), /*Start of Bottom-Right Corner*/
+    calc(100% - 40px) 100%, /*End of Bottom-Right Corner*/
+    60px 100%, /*Start of Bottom-Left Corner*/
+    40px calc(100% - 20px),
+    40px 2px,
+    42px 2px,
+    42px calc(100% - 20px),
+    60px calc(100% - 2px),
+    calc(100% - 40px) calc(100% - 2px), /*Inside of Bottom-Right */
+    calc(100% - 22px) calc(100% - 20px), /*Inside of Bottom-Right */ 
+    calc(100% - 22px) 2px, /*Inside of Top-Left*/
+    40px 2px /*Return to Start*/
+  );
 }
 
 /*CODEX FOOTER*/
