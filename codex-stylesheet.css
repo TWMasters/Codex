@@ -14,7 +14,7 @@ html, body {
 
 body {
   position: relative;
-  background: linear-gradient(black, black, navy, #1277AD) no-repeat fixed;  
+  background: linear-gradient(black, black, black, navy, navy, navy, #1277AD, #1176AC) no-repeat fixed;  
   color: #A2C8D1;
   font-family: 'Orbitron', sans-serif;
 }
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: linear-gradient(#132843, #132843, black, navy, #113A7A) no-repeat fixed;
+  background: linear-gradient(#132843, #132843, navy, #113A7A, #114189) no-repeat fixed;
   top: 0;
   left: 0;
   clip-path: polygon(
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   height: 65%;
   width: 100%;
-  background-color: #A2C8D1;
+  background-color: #35506B;
   top: 35%;
   clip-path: polygon(
     40px 0, /*Start*/
@@ -207,6 +207,17 @@ h1, h2, h3, h4, h5, h6 {
     calc(100% - 22px) 2px, /*Inside of Top-Left*/
     40px 2px /*Return to Start*/
   );
+  display: flex;
+}
+
+.codex__entry {
+  position: absolute;
+  top: 35%;
+  left: 40px;
+  right: 20px;
+  bottom: 25px;
+  margin: 2px;
+  padding: 0px 5px;
 }
 
 /*CODEX FOOTER*/
