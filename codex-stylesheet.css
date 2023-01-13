@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 /*PICTURE*/
 .picture-block {
   height: 30%;
-  border: solid 1px #A2C8D1;
+  /*border: solid 1px #A2C8D1;*/
   margin: 5px 20px 10px 40px;
   display: flex;
 }
@@ -178,6 +178,32 @@ h1, h2, h3, h4, h5, h6 {
 .picture-block-left-outer-wedge {
   width: 0;
   border-right: 20px solid #2C587D;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.picture-block-outer-border {
+  border: solid #2C587D;
+  border-width: 5px 10px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.picture-block-outer-border::after {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 20px solid #2C587D;
+  border-left: 20px solid #2C587D;
+  border-bottom: 20px solid transparent;
+  height: 0;
+  width: calc(100% - 40px);
+}
+
+.picture-block-right-outer-wedge {
+  width: 0;
+  border-left: 20px solid #2C587D;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
