@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .codex-column {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -147,50 +148,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*COLUMN 2*/
-.column__2__container {
-  height: 100%;
-  position: relative;
-}
-
 .column__2__bg {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: linear-gradient(rgba(19,40,67,0.9), rgba(19,40,67,0.5), rgba(19,40,67,0.1)) no-repeat fixed;
+  background: linear-gradient(rgba(19,40,67,0.7), rgba(19,40,67,0.1)) no-repeat fixed;
   top: 0;
   left: 0;
   clip-path: polygon(
     0 0,
-    100% 0,
+    calc(100% - 20px) 0,
+    100% 20px,
     100% calc(100% - 40px),
     calc(100% - 40px) 100%,
     60px 100%,
     0 calc(100% - 60px)
   );
+  z-index: -1;
 }
 
+/*PICTURE*/
 .picture-block {
-  position: absolute;
-  height: 35%;
-  width: 100%;
-  /* border: solid 1px #A2C8D1;*/
-  top: 0;
-  left: 0;
+  height: 30%;
+  border: solid 1px #A2C8D1;
+  margin: 5px 20px 10px 40px;
+  display: flex;
 }
 
+.picture-block-left-outer-wedge {
+  width: 0;
+  border-right: 20px solid #2C587D;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+/*
 .codex__image {
-  position: absolute;
-  left: 2.5%;
-  right: 2.5%;
-  top: 2.5%;
 }
+*/
 
+/*CODEX ENTRY*/
 .entry__block__border  {
-  position: absolute;
-  height: 65%;
+  height: 70%;
   width: 100%;
   background-color: #35506B;
-  top: 35%;
   clip-path: polygon(
     40px 0, /*Start*/
     calc(100% - 20px) 0, /*Top-Left*/
