@@ -1,0 +1,40 @@
+{ "codex-entries":
+  [
+    {
+      "category": "Aliens: Council Races",
+      "entries":
+      [
+        {
+          "name":"Asari",
+          "type":"Primary"
+        },
+        {
+          "name":"Salarians",
+          "type":"Primary"
+        },
+        {
+          "name":"Turians",
+          "type":"Primary"
+        }
+      ]    
+    },
+    {"category": "Aliens: Extinct Races"
+    },
+    {"category": "Aliens: Non-Council Races"
+    },
+    {"category": "Aliens: Non-Sapient Creatures"
+    },
+    {"category": "Citadel and Galactic Government"
+    },
+    {"category": "Humanity and the Systems Alliance"
+    },
+    {"category": "Planets and Locations"
+    },
+    {"category": "Ships and Vehicles"
+    },
+    {"category": "Technology"
+    },
+    {"category": "Weapons, Armour and Equipment"
+    }
+  ]
+}
