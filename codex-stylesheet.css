@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 5px 10px;
   flex-grow: 1;
   position: relative;
+  display: flex;
 }
 
 .picture-block-outer-border::after {
@@ -208,16 +209,33 @@ h1, h2, h3, h4, h5, h6 {
   width: calc(100% - 40px);
 }
 
-/*
-.codex__image {
+.picture-block-left-inner-wedge {
+  width: 0;
+  border-right: 15px solid #1E3A52;
+  border-top: 15px solid transparent;
+  margin: 5px;
+  margin-top: 10px;
 }
-*/
+
+.picture-block-right-inner-wedge {
+  width: 0;
+  border-left: 15px solid #1E3A52;
+  border-top: 15px solid transparent;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.codex__image__container {
+  flex-grow: 1;
+  margin: 5px 0px;
+  
+}
 
 /*CODEX ENTRY*/
 .entry__block__border  {
   height: 70%;
   width: 100%;
-  background-color: #35506B;
+  background-color: #2C587D;
   clip-path: polygon(
     40px 0, /*Start*/
     calc(100% - 20px) 0, /*Top-Left*/
