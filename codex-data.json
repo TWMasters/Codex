@@ -18,17 +18,145 @@
         }
       ]    
     },
-    {"category": "Aliens: Extinct Races"
+    {
+      "category": "Aliens: Extinct Races",
+      "entries":
+      [
+        {
+          "name":"Protheans",
+          "type":"Primary"
+        },
+        {
+          "name":"Rachni",
+          "type":"Primary"
+        }
+      ]
     },
-    {"category": "Aliens: Non-Council Races"
+    {
+      "category": "Aliens: Non-Council Races",
+      "entries":
+      [
+        {
+          "name":"Batarians",
+          "type":"Primary"
+        },
+        {
+          "name":"Elcor",
+          "type":"Primary"
+        },
+        {
+          "name":"Geth",
+          "type":"Primary"
+        },
+        {
+          "name":"Hanar",
+          "type":"Primary"
+        },
+        {
+          "name":"Keepers",
+          "type":"Primary"
+        },
+        {
+          "name":"Krogan",
+          "type":"Primary"
+        },
+        {
+          "name":"Quarians",
+          "type":"Primary"
+        },
+        {
+          "name":"Volus",
+          "type":"Primary"
+        }
+      ]
     },
-    {"category": "Aliens: Non-Sapient Creatures"
+    {
+      "category": "Aliens: Non-Sapient Creatures",
+      "entries":
+      [
+        {
+          "name":"Husks",
+          "type":"Primary"
+        },
+        {
+          "name":"Thresher Maws",
+          "type":"Primary"
+        },
+        {
+          "name":"Varren",
+          "type":"Primary"
+        }
+      ]
     },
-    {"category": "Citadel and Galactic Government"
+    {
+      "category": "Citadel and Galactic Government",
+      "entries":
+      [
+        {
+          "name":"Citadel",
+          "type":"Primary"
+        },
+        {
+          "name":"Citadel Council",
+          "type":"Primary"
+        },
+        {
+          "name":"Citadel Space",
+          "type":"Primary"
+        },
+        {
+          "name":"Spectres",
+          "type":"Primary"
+        }
+      ]
     },
-    {"category": "Humanity and the Systems Alliance"
+    {
+      "category": "Humanity and the Systems Alliance",
+      "entries":
+      [
+        {
+          "name":"Earth",
+          "type":"Primary"
+        },
+        {
+          "name":"First Contact War",
+          "type":"Primary"
+        },
+        {
+          "name":"Systems Alliance",
+          "type":"Primary"
+        }
+      ]
     },
-    {"category": "Planets and Locations"
+    {
+      "category": "Planets and Locations",
+      "entries":
+      [
+        {
+          "name":"Planets: Feros",
+          "type":"Primary"
+        },
+        {
+          "name":"Planets: Ilos",
+          "type":"Primary"
+        },
+        {
+          "name":"Planets: Noveria",
+          "type":"Primary"
+        },
+        {
+          "name":"Planets: Virmire",
+          "type":"Primary"
+        },
+        {
+          "name":"Region: Terminus Systems",
+          "type":"Primary"
+        },
+        {
+          "name":"Uncharted Worlds",
+          "type":"Primary"
+        }
+      ]
     },
     {"category": "Ships and Vehicles"
     },
