@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-button-block {
   height: 5%;
+  margin-left: 80px;
 }
 
 .menu-block {
@@ -67,9 +68,32 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   text-align:center;
   height: 45%;
-  border: solid #1D486B;
-  border-width: 25px 0px;
+  border: solid transparent;
+  border-width: 25px 0;
+  margin-left: 80px;
   margin-right: 10px;
+}
+
+.menu-block::before {
+  margin: 0;
+  border: 0;
+  content: "";
+  background: #1D486B;
+  width: calc(110px + 100%);
+  height: calc(100% + 50px);
+  
+  clip-path: polygon(
+    100% 0,
+    100% 25px,
+    85px 25px,
+    5px 105px, /* DIVE IN FROM HERE */
+    0px 105px,
+    105px 0px
+  );
+  position: absolute;
+  top: -25px;
+  left: -110px;
+
 }
 
 .menu-block::after {
