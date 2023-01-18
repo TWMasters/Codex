@@ -2,167 +2,204 @@
   [
     {
       "category": "Aliens: Council Races",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Asari",
-          "type":"Primary"
+          "name":"Asari"
         },
         {
-          "name":"Salarians",
-          "type":"Primary"
+          "name":"Salarians"
         },
         {
-          "name":"Turians",
-          "type":"Primary"
+          "name":"Turians"
         }
       ]    
     },
     {
       "category": "Aliens: Extinct Races",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Protheans",
-          "type":"Primary"
+          "name":"Protheans"
         },
         {
-          "name":"Rachni",
-          "type":"Primary"
+          "name":"Rachni"
         }
       ]
     },
     {
       "category": "Aliens: Non-Council Races",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Batarians",
-          "type":"Primary"
+          "name":"Batarians"
         },
         {
-          "name":"Elcor",
-          "type":"Primary"
+          "name":"Elcor"
         },
         {
-          "name":"Geth",
-          "type":"Primary"
+          "name":"Geth"
         },
         {
-          "name":"Hanar",
-          "type":"Primary"
+          "name":"Hanar"
         },
         {
-          "name":"Keepers",
-          "type":"Primary"
+          "name":"Keepers"
         },
         {
-          "name":"Krogan",
-          "type":"Primary"
+          "name":"Krogan"
         },
         {
-          "name":"Quarians",
-          "type":"Primary"
+          "name":"Quarians"
         },
         {
-          "name":"Volus",
-          "type":"Primary"
+          "name":"Volus"
         }
       ]
     },
     {
       "category": "Aliens: Non-Sapient Creatures",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Husks",
-          "type":"Primary"
+          "name":"Husks"
         },
         {
-          "name":"Thresher Maws",
-          "type":"Primary"
+          "name":"Thresher Maws"
         },
         {
-          "name":"Varren",
-          "type":"Primary"
+          "name":"Varren"
         }
       ]
     },
     {
       "category": "Citadel and Galactic Government",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Citadel",
-          "type":"Primary"
+          "name":"Citadel"
         },
         {
-          "name":"Citadel Council",
-          "type":"Primary"
+          "name":"Citadel Council"
         },
         {
-          "name":"Citadel Space",
-          "type":"Primary"
+          "name":"Citadel Space"
         },
         {
-          "name":"Spectres",
-          "type":"Primary"
+          "name":"Spectres"
         }
       ]
     },
     {
       "category": "Humanity and the Systems Alliance",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Earth",
-          "type":"Primary"
+          "name":"Earth"
         },
         {
-          "name":"First Contact War",
-          "type":"Primary"
+          "name":"First Contact War"
         },
         {
-          "name":"Systems Alliance",
-          "type":"Primary"
+          "name":"Systems Alliance"
         }
       ]
     },
     {
       "category": "Planets and Locations",
-      "entries":
+      "primary-entries":
       [
         {
-          "name":"Planets: Feros",
-          "type":"Primary"
+          "name":"Planets: Feros"
         },
         {
-          "name":"Planets: Ilos",
-          "type":"Primary"
+          "name":"Planets: Ilos"
         },
         {
-          "name":"Planets: Noveria",
-          "type":"Primary"
+          "name":"Planets: Noveria"
         },
         {
-          "name":"Planets: Virmire",
-          "type":"Primary"
+          "name":"Planets: Virmire"
         },
         {
-          "name":"Region: Terminus Systems",
-          "type":"Primary"
+          "name":"Region: Terminus Systems"
         },
         {
-          "name":"Uncharted Worlds",
-          "type":"Primary"
+          "name":"Uncharted Worlds"
         }
       ]
     },
-    {"category": "Ships and Vehicles"
+    {
+      "category": "Ships and Vehicles",
+      "primary-entries":
+      [
+        {
+          "name": "FTL Drive"
+        },
+        {
+          "name": "Military Ship Classifications"
+        },
+        {
+          "name": "Normmandy"
+        },
+        {
+          "name": "Sovereign"
+        },
+        {
+          "name": "Space Combat"
+        },
+        {
+          "name": "Vehicles: M35 Mako"
+        }
+      ]
     },
-    {"category": "Technology"
+    {
+      "category": "Technology",
+      "primary-entries":
+      [
+        {
+          "name": "Biotics"
+        },
+        {
+          "name": "Computers: Artificial Intelligence (AI)"
+        },
+        {
+          "name": "Computers: Virtual Intelligence (VI)"
+        },
+        {
+          "name": "Element Zero (\"Eezo\")"
+        },
+        {
+          "name": "Mass Effect Fields"
+        },
+        {
+          "name": "Mass Relays"
+        },
+        {
+          "name": "Omni-tool"
+        }       
+      ]
     },
-    {"category": "Weapons, Armour and Equipment"
+    {
+      "category": "Weapons, Armour and Equipment",
+      "primary-entries":
+      [
+        {
+          "name": "Body Armour"
+        },
+        {
+          "name": "Kinetic Barriers (\"Shields\")"
+        },
+        {
+          "name": "Mass Accelerators"
+        },
+        {
+          "name": "Medi-Gel"
+        },
+        {
+          "name": "Small Arms"
+        }
+      ]
     }
   ]
 }
