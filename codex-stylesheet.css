@@ -89,8 +89,14 @@ h1, h2, h3, h4, h5, h6 {
     20px 95px, 
     20px 115px,
     25px 120px,
-    25px calc(100% - 105px), /* DIVE IN FROM HERE */
-    0px calc(100% - 105px),
+    25px calc(100% - 120px), /* DIVE IN FROM HERE */
+    20px calc(100% - 115px),
+    20px calc(100% - 95px),
+    85px calc(100% - 25px),
+    100% calc(100% - 25px),
+    100% 100%,
+    105px 100%,
+    0px calc(100% - 105px), /*RETURN HERE */
     0px 105px,
     105px 0px
   );
